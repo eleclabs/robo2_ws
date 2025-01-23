@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.001219] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.001637] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.001795] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.001874] (-) JobUnselected: {'identifier': 'motor_control'}
+[0.001949] (-) JobUnselected: {'identifier': 'myrobot'}
+[0.002024] (-) JobUnselected: {'identifier': 'robot_odom'}
+[0.002104] (opencv_tools) JobQueued: {'identifier': 'opencv_tools', 'dependencies': OrderedDict()}
+[0.002187] (opencv_tools) JobStarted: {'identifier': 'opencv_tools'}
+[0.098012] (-) TimerEvent: {}
+[0.198634] (-) TimerEvent: {}
+[0.299267] (-) TimerEvent: {}
+[0.399885] (-) TimerEvent: {}
+[0.500458] (-) TimerEvent: {}
+[0.601063] (-) TimerEvent: {}
+[0.701623] (-) TimerEvent: {}
+[0.802183] (-) TimerEvent: {}
+[0.902752] (-) TimerEvent: {}
+[1.003420] (-) TimerEvent: {}
+[1.104362] (-) TimerEvent: {}
+[1.205143] (-) TimerEvent: {}
+[1.305740] (-) TimerEvent: {}
+[1.406393] (-) TimerEvent: {}
+[1.507000] (-) TimerEvent: {}
+[1.607558] (-) TimerEvent: {}
+[1.708139] (-) TimerEvent: {}
+[1.808699] (-) TimerEvent: {}
+[1.909339] (-) TimerEvent: {}
+[2.010027] (-) TimerEvent: {}
+[2.110692] (-) TimerEvent: {}
+[2.211279] (-) TimerEvent: {}
+[2.311838] (-) TimerEvent: {}
+[2.412465] (-) TimerEvent: {}
+[2.513202] (-) TimerEvent: {}
+[2.520885] (opencv_tools) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/opencv_tools', 'build', '--build-base', '/home/pi/ros2_pi_ws/build/opencv_tools/build', 'install', '--record', '/home/pi/ros2_pi_ws/build/opencv_tools/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/ros2_pi_ws/src/opencv_tools', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.1.121 44092 22', 'LC_TIME': 'th_TH.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/ros2_pi_ws/install/micro_ros_agent/lib:/home/pi/ros2_pi_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'CYCLONEDDS_URI': '/etc/cyclonedds.xml', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'th_TH.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros2_pi_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'th_TH.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'th_TH.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros2_pi_ws/install/robot_odom:/home/pi/ros2_pi_ws/install/myrobot:/home/pi/ros2_pi_ws/install/motor_control:/home/pi/ros2_pi_ws/install/micro_ros_setup:/home/pi/ros2_pi_ws/install/micro_ros_agent:/home/pi/ros2_pi_ws/install/micro_ros_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'PWD': '/home/pi/ros2_pi_ws/build/opencv_tools', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.121 44092 192.168.1.142 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_pi_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_pi_ws/install/opencv_tools/lib/python3.10/site-packages:/home/pi/ros2_pi_ws/install/myrobot/lib/python3.10/site-packages:/home/pi/ros2_pi_ws/install/motor_control/lib/python3.10/site-packages:/home/pi/ros2_pi_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pi/ros2_pi_ws/install/robot_odom:/home/pi/ros2_pi_ws/install/micro_ros_setup:/home/pi/ros2_pi_ws/install/micro_ros_agent:/home/pi/ros2_pi_ws/install/micro_ros_msgs'}, 'shell': False}
+[2.613364] (-) TimerEvent: {}
+[2.713985] (-) TimerEvent: {}
+[2.814595] (-) TimerEvent: {}
+[2.915264] (-) TimerEvent: {}
+[3.015892] (-) TimerEvent: {}
+[3.116477] (-) TimerEvent: {}
+[3.217077] (-) TimerEvent: {}
+[3.317626] (-) TimerEvent: {}
+[3.418185] (-) TimerEvent: {}
+[3.476684] (opencv_tools) StdoutLine: {'line': b'running egg_info\n'}
+[3.479257] (opencv_tools) StdoutLine: {'line': b'writing ../../build/opencv_tools/opencv_tools.egg-info/PKG-INFO\n'}
+[3.480330] (opencv_tools) StdoutLine: {'line': b'writing dependency_links to ../../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt\n'}
+[3.481197] (opencv_tools) StdoutLine: {'line': b'writing entry points to ../../build/opencv_tools/opencv_tools.egg-info/entry_points.txt\n'}
+[3.481861] (opencv_tools) StdoutLine: {'line': b'writing requirements to ../../build/opencv_tools/opencv_tools.egg-info/requires.txt\n'}
+[3.482569] (opencv_tools) StdoutLine: {'line': b'writing top-level names to ../../build/opencv_tools/opencv_tools.egg-info/top_level.txt\n'}
+[3.490468] (opencv_tools) StdoutLine: {'line': b"reading manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'\n"}
+[3.494051] (opencv_tools) StdoutLine: {'line': b"writing manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'\n"}
+[3.494638] (opencv_tools) StdoutLine: {'line': b'running build\n'}
+[3.495065] (opencv_tools) StdoutLine: {'line': b'running build_py\n'}
+[3.496599] (opencv_tools) StdoutLine: {'line': b'running install\n'}
+[3.497890] (opencv_tools) StdoutLine: {'line': b'running install_lib\n'}
+[3.503326] (opencv_tools) StdoutLine: {'line': b'running install_data\n'}
+[3.503892] (opencv_tools) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.510723] (opencv_tools) StdoutLine: {'line': b"removing '/home/pi/ros2_pi_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.512348] (opencv_tools) StdoutLine: {'line': b'Copying ../../build/opencv_tools/opencv_tools.egg-info to /home/pi/ros2_pi_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools-0.0.0-py3.10.egg-info\n'}
+[3.517214] (opencv_tools) StdoutLine: {'line': b'running install_scripts\n'}
+[3.518306] (-) TimerEvent: {}
+[3.594833] (opencv_tools) StdoutLine: {'line': b'Installing img_pub_node script to /home/pi/ros2_pi_ws/install/opencv_tools/lib/opencv_tools\n'}
+[3.595714] (opencv_tools) StdoutLine: {'line': b'Installing img_sub_node script to /home/pi/ros2_pi_ws/install/opencv_tools/lib/opencv_tools\n'}
+[3.597447] (opencv_tools) StdoutLine: {'line': b"writing list of installed files to '/home/pi/ros2_pi_ws/build/opencv_tools/install.log'\n"}
+[3.618539] (-) TimerEvent: {}
+[3.703389] (opencv_tools) CommandEnded: {'returncode': 0}
+[3.718652] (-) TimerEvent: {}
+[3.749367] (opencv_tools) JobEnded: {'identifier': 'opencv_tools', 'rc': 0}
+[3.751878] (-) EventReactorShutdown: {}

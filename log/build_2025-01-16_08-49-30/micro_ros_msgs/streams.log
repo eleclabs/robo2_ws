@@ -1,0 +1,36 @@
+[0.104s] Invoking command in '/home/pi/microros_pi_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake /home/pi/microros_pi_ws/src/uros/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/pi/microros_pi_ws/install/micro_ros_msgs
+[0.454s] -- The C compiler identification is GNU 11.4.0
+[0.795s] -- The CXX compiler identification is GNU 11.4.0
+[0.841s] -- Detecting C compiler ABI info
+[1.298s] -- Detecting C compiler ABI info - done
+[1.329s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.330s] -- Detecting C compile features
+[1.332s] -- Detecting C compile features - done
+[1.345s] -- Detecting CXX compiler ABI info
+[1.846s] -- Detecting CXX compiler ABI info - done
+[1.885s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.887s] -- Detecting CXX compile features
+[1.890s] -- Detecting CXX compile features - done
+[1.932s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.022s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.706s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.750s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.834s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.294s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.554s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.853s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.709s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.746s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.855s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[7.874s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.991s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[7.991s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.991s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.992s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[8.089s] -- Found PythonExtra: .so  
+[8.248s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.339s] -- Added test 'lint_cmake' to check CMake code style
+[8.383s] -- Added test 'xmllint' to check XML markup files
+[8.422s] -- Configuring done
+[8.582s] -- Generating done
+[8.622s] -- Build files have been written to: /home/pi/microros_pi_ws/build/micro_ros_msgs

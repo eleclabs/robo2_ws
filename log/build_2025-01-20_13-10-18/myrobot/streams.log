@@ -1,0 +1,37 @@
+[5.274s] Invoking command in '/home/pi/ros2_pi_ws/src/myrobot': PYTHONPATH=/home/pi/ros2_pi_ws/build/myrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_pi_ws/install/myrobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/myrobot build --build-base /home/pi/ros2_pi_ws/build/myrobot/build install --record /home/pi/ros2_pi_ws/build/myrobot/install.log --single-version-externally-managed install_data
+[6.910s] running egg_info
+[6.915s] creating ../../build/myrobot/myrobot.egg-info
+[6.918s] writing ../../build/myrobot/myrobot.egg-info/PKG-INFO
+[6.919s] writing dependency_links to ../../build/myrobot/myrobot.egg-info/dependency_links.txt
+[6.925s] writing entry points to ../../build/myrobot/myrobot.egg-info/entry_points.txt
+[6.927s] writing requirements to ../../build/myrobot/myrobot.egg-info/requires.txt
+[6.929s] writing top-level names to ../../build/myrobot/myrobot.egg-info/top_level.txt
+[6.930s] writing manifest file '../../build/myrobot/myrobot.egg-info/SOURCES.txt'
+[6.939s] reading manifest file '../../build/myrobot/myrobot.egg-info/SOURCES.txt'
+[6.946s] writing manifest file '../../build/myrobot/myrobot.egg-info/SOURCES.txt'
+[6.950s] running build
+[6.968s] running build_py
+[6.970s] creating /home/pi/ros2_pi_ws/build/myrobot/build
+[6.971s] creating /home/pi/ros2_pi_ws/build/myrobot/build/lib
+[6.972s] creating /home/pi/ros2_pi_ws/build/myrobot/build/lib/myrobot
+[6.973s] copying myrobot/__init__.py -> /home/pi/ros2_pi_ws/build/myrobot/build/lib/myrobot
+[6.978s] copying myrobot/pid_tuner.py -> /home/pi/ros2_pi_ws/build/myrobot/build/lib/myrobot
+[6.981s] running install
+[6.984s] running install_lib
+[6.988s] creating /home/pi/ros2_pi_ws/install/myrobot/lib/python3.10/site-packages/myrobot
+[6.991s] copying /home/pi/ros2_pi_ws/build/myrobot/build/lib/myrobot/__init__.py -> /home/pi/ros2_pi_ws/install/myrobot/lib/python3.10/site-packages/myrobot
+[6.992s] copying /home/pi/ros2_pi_ws/build/myrobot/build/lib/myrobot/pid_tuner.py -> /home/pi/ros2_pi_ws/install/myrobot/lib/python3.10/site-packages/myrobot
+[6.993s] byte-compiling /home/pi/ros2_pi_ws/install/myrobot/lib/python3.10/site-packages/myrobot/__init__.py to __init__.cpython-310.pyc
+[6.994s] byte-compiling /home/pi/ros2_pi_ws/install/myrobot/lib/python3.10/site-packages/myrobot/pid_tuner.py to pid_tuner.cpython-310.pyc
+[6.995s] running install_data
+[7.019s] creating /home/pi/ros2_pi_ws/install/myrobot/share/ament_index
+[7.022s] creating /home/pi/ros2_pi_ws/install/myrobot/share/ament_index/resource_index
+[7.025s] creating /home/pi/ros2_pi_ws/install/myrobot/share/ament_index/resource_index/packages
+[7.033s] copying resource/myrobot -> /home/pi/ros2_pi_ws/install/myrobot/share/ament_index/resource_index/packages
+[7.034s] copying package.xml -> /home/pi/ros2_pi_ws/install/myrobot/share/myrobot
+[7.035s] running install_egg_info
+[7.036s] Copying ../../build/myrobot/myrobot.egg-info to /home/pi/ros2_pi_ws/install/myrobot/lib/python3.10/site-packages/myrobot-0.0.0-py3.10.egg-info
+[7.038s] running install_scripts
+[7.121s] Installing pid_tuner script to /home/pi/ros2_pi_ws/install/myrobot/lib/myrobot
+[7.123s] writing list of installed files to '/home/pi/ros2_pi_ws/build/myrobot/install.log'
+[7.298s] Invoked command in '/home/pi/ros2_pi_ws/src/myrobot' returned '0': PYTHONPATH=/home/pi/ros2_pi_ws/build/myrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_pi_ws/install/myrobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/myrobot build --build-base /home/pi/ros2_pi_ws/build/myrobot/build install --record /home/pi/ros2_pi_ws/build/myrobot/install.log --single-version-externally-managed install_data

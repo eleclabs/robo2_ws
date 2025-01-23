@@ -1,0 +1,1 @@
+[1.198s] Invoking command in '/home/pi/ros2_pi_ws/build/robot_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_pi_ws/install/motor_control:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_pi_ws/build/robot_odom -- -j4 -l4

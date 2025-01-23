@@ -1,0 +1,36 @@
+[0.119s] Invoking command in '/home/pi/microros_pi_ws/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake /home/pi/microros_pi_ws/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/pi/microros_pi_ws/install/robot_localization
+[1.403s] -- The C compiler identification is GNU 11.4.0
+[2.267s] -- The CXX compiler identification is GNU 11.4.0
+[2.322s] -- Detecting C compiler ABI info
+[2.817s] -- Detecting C compiler ABI info - done
+[2.849s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.853s] -- Detecting C compile features
+[2.857s] -- Detecting C compile features - done
+[2.883s] -- Detecting CXX compiler ABI info
+[3.384s] -- Detecting CXX compiler ABI info - done
+[3.422s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.422s] -- Detecting CXX compile features
+[3.423s] -- Detecting CXX compile features - done
+[3.424s] -- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.
+[3.452s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.325s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.330s] [31mCMake Error at CMakeLists.txt:18 (find_package):
+[5.331s]   By not providing "Findangles.cmake" in CMAKE_MODULE_PATH this project has
+[5.331s]   asked CMake to find a package configuration file provided by "angles", but
+[5.332s]   CMake did not find one.
+[5.332s] 
+[5.332s]   Could not find a package configuration file provided by "angles" with any
+[5.333s]   of the following names:
+[5.333s] 
+[5.334s]     anglesConfig.cmake
+[5.334s]     angles-config.cmake
+[5.335s] 
+[5.336s]   Add the installation prefix of "angles" to CMAKE_PREFIX_PATH or set
+[5.337s]   "angles_DIR" to a directory containing one of the above files.  If "angles"
+[5.338s]   provides a separate development package or SDK, be sure it has been
+[5.339s]   installed.
+[5.339s] 
+[5.341s] [0m
+[5.341s] -- Configuring incomplete, errors occurred!
+[5.342s] See also "/home/pi/microros_pi_ws/build/robot_localization/CMakeFiles/CMakeOutput.log".
+[5.347s] Invoked command in '/home/pi/microros_pi_ws/build/robot_localization' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake /home/pi/microros_pi_ws/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/pi/microros_pi_ws/install/robot_localization

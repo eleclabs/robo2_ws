@@ -1,0 +1,149 @@
+[0.107s] Invoking command in '/home/pi/microros_pi_ws/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake /home/pi/microros_pi_ws/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/pi/microros_pi_ws/install/robot_localization
+[0.157s] -- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.
+[0.159s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.981s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[1.024s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.651s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.705s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.787s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.906s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.172s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.957s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.024s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.385s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.686s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.015s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.253s] -- Looking for pthread.h
+[6.074s] -- Looking for pthread.h - found
+[6.077s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.803s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.809s] -- Found Threads: TRUE  
+[7.609s] -- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[7.841s] -- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[7.978s] -- Found geographic_msgs: 1.0.6 (/opt/ros/humble/share/geographic_msgs/cmake)
+[8.651s] -- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+[8.727s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[8.927s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[9.104s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.336s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[9.514s] -- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)
+[9.815s] -- Found tf2_eigen: 0.25.9 (/opt/ros/humble/share/tf2_eigen/cmake)
+[11.102s] -- Found tf2_geometry_msgs: 0.25.9 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[11.299s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[11.307s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[11.308s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[11.437s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[11.490s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[11.554s] -- Found GeographicLib: /usr/lib/aarch64-linux-gnu  
+[15.079s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[15.124s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[15.152s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[15.190s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[19.176s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[20.218s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[20.370s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[20.392s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[20.518s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[20.519s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[20.520s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[20.520s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[20.635s] -- Found PythonExtra: .so  
+[21.062s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[21.088s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[21.153s] -- Found ament_cmake_lint_cmake: 0.12.11 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[21.180s] -- Found launch_testing_ament_cmake: 1.0.7 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[21.309s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[21.309s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[21.310s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[21.343s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[21.496s] -- Configuring done
+[22.339s] -- Generating done
+[22.587s] -- Build files have been written to: /home/pi/microros_pi_ws/build/robot_localization
+[22.658s] Invoked command in '/home/pi/microros_pi_ws/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake /home/pi/microros_pi_ws/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/pi/microros_pi_ws/install/robot_localization
+[22.668s] Invoking command in '/home/pi/microros_pi_ws/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake --build /home/pi/microros_pi_ws/build/robot_localization -- -j4 -l4
+[22.897s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[22.971s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[22.999s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[23.087s] [  3%] Built target ament_cmake_python_copy_robot_localization
+[23.190s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[31.252s] [  4%] Built target robot_localization__cpp
+[31.388s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[33.772s] [  5%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_c.dir/rosidl_generator_c/robot_localization/srv/detail/from_ll__functions.c.o[0m
+[34.834s] [  6%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[35.371s] [  7%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_c.dir/rosidl_generator_c/robot_localization/srv/detail/get_state__functions.c.o[0m
+[36.263s] [  7%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_localization/srv/from_ll__type_support.cpp.o[0m
+[36.773s] [  8%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_c.dir/rosidl_generator_c/robot_localization/srv/detail/set_datum__functions.c.o[0m
+[36.826s] [  8%] Built target gtest_main
+[36.974s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[37.955s] [ 10%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_c.dir/rosidl_generator_c/robot_localization/srv/detail/set_pose__functions.c.o[0m
+[38.846s] [ 11%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_localization/srv/get_state__type_support.cpp.o[0m
+[39.453s] [ 12%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_c.dir/rosidl_generator_c/robot_localization/srv/detail/set_utm_zone__functions.c.o[0m
+[40.822s] [ 12%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_c.dir/rosidl_generator_c/robot_localization/srv/detail/toggle_filter_processing__functions.c.o[0m
+[41.343s] [ 13%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_localization/srv/set_datum__type_support.cpp.o[0m
+[42.116s] [ 14%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_generator_c.dir/rosidl_generator_c/robot_localization/srv/detail/to_ll__functions.c.o[0m
+[43.607s] [ 15%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_localization/srv/detail/dds_fastrtps/from_ll__type_support.cpp.o[0m
+[43.613s] [ 16%] [32m[1mLinking C shared library librobot_localization__rosidl_generator_c.so[0m
+[43.997s] [ 16%] Built target robot_localization__rosidl_generator_c
+[44.426s] [ 17%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_localization/srv/set_pose__type_support.cpp.o[0m
+[46.601s] [ 18%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_localization/srv/set_utm_zone__type_support.cpp.o[0m
+[47.429s] [ 19%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_localization/srv/detail/dds_fastrtps/get_state__type_support.cpp.o[0m
+[49.191s] [ 20%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_localization/srv/toggle_filter_processing__type_support.cpp.o[0m
+[51.422s] [ 21%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_localization/srv/detail/dds_fastrtps/set_datum__type_support.cpp.o[0m
+[52.021s] [ 21%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_localization/srv/to_ll__type_support.cpp.o[0m
+[54.546s] [ 22%] [32m[1mLinking CXX shared library librobot_localization__rosidl_typesupport_cpp.so[0m
+[54.690s] [ 22%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_localization/srv/detail/dds_fastrtps/set_pose__type_support.cpp.o[0m
+[55.012s] [ 22%] Built target robot_localization__rosidl_typesupport_cpp
+[57.960s] [ 23%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_localization/srv/detail/dds_fastrtps/set_utm_zone__type_support.cpp.o[0m
+[61.431s] [ 24%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_localization/srv/detail/dds_fastrtps/toggle_filter_processing__type_support.cpp.o[0m
+[64.914s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_localization/srv/detail/dds_fastrtps/to_ll__type_support.cpp.o[0m
+[68.276s] [ 26%] [32m[1mLinking CXX shared library librobot_localization__rosidl_typesupport_fastrtps_cpp.so[0m
+[68.767s] [ 26%] Built target robot_localization__rosidl_typesupport_fastrtps_cpp
+[87.800s] [ 26%] [32m[1mLinking CXX static library libgtest.a[0m
+[88.791s] [ 26%] Built target gtest
+[88.912s] [ 27%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/ekf.cpp.o[0m
+[120.942s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[123.168s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[124.327s] running egg_info
+[124.331s] creating robot_localization.egg-info
+[124.332s] writing robot_localization.egg-info/PKG-INFO
+[124.333s] writing dependency_links to robot_localization.egg-info/dependency_links.txt
+[124.335s] writing top-level names to robot_localization.egg-info/top_level.txt
+[124.336s] writing manifest file 'robot_localization.egg-info/SOURCES.txt'
+[124.351s] reading manifest file 'robot_localization.egg-info/SOURCES.txt'
+[124.354s] writing manifest file 'robot_localization.egg-info/SOURCES.txt'
+[124.620s] [ 29%] Built target ament_cmake_python_build_robot_localization_egg
+[124.779s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[128.537s] [ 31%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_localization/srv/detail/from_ll__type_support_c.cpp.o[0m
+[130.481s] [ 31%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_localization/srv/detail/from_ll__type_support.c.o[0m
+[130.852s] [ 32%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_localization/srv/detail/from_ll__type_support.cpp.o[0m
+[131.332s] [ 33%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_localization/srv/detail/get_state__type_support.c.o[0m
+[132.224s] [ 34%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_localization/srv/detail/set_datum__type_support.c.o[0m
+[132.590s] [ 35%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_localization/srv/detail/get_state__type_support_c.cpp.o[0m
+[133.010s] [ 36%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_localization/srv/detail/set_pose__type_support.c.o[0m
+[133.929s] [ 37%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_localization/srv/detail/set_utm_zone__type_support.c.o[0m
+[134.723s] [ 38%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_localization/srv/detail/toggle_filter_processing__type_support.c.o[0m
+[135.585s] [ 38%] [32mBuilding C object CMakeFiles/robot_localization__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_localization/srv/detail/to_ll__type_support.c.o[0m
+[136.248s] [ 39%] [32m[1mLinking C shared library librobot_localization__rosidl_typesupport_introspection_c.so[0m
+[136.537s] [ 39%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_localization/srv/detail/get_state__type_support.cpp.o[0m
+[136.607s] [ 39%] Built target robot_localization__rosidl_typesupport_introspection_c
+[138.441s] [ 40%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_localization/srv/detail/set_datum__type_support_c.cpp.o[0m
+[140.773s] [ 41%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_localization/srv/detail/set_datum__type_support.cpp.o[0m
+[142.735s] [ 41%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_localization/srv/detail/set_pose__type_support_c.cpp.o[0m
+[144.906s] [ 42%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_localization/srv/detail/set_pose__type_support.cpp.o[0m
+[146.196s] [ 43%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_localization/srv/detail/set_utm_zone__type_support_c.cpp.o[0m
+[148.056s] [ 44%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_localization/srv/detail/set_utm_zone__type_support.cpp.o[0m
+[148.148s] [ 44%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/ukf.cpp.o[0m
+[149.269s] [ 45%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_localization/srv/detail/toggle_filter_processing__type_support_c.cpp.o[0m
+[150.795s] [ 46%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_localization/srv/detail/toggle_filter_processing__type_support.cpp.o[0m
+[151.797s] [ 47%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_localization/srv/detail/to_ll__type_support_c.cpp.o[0m
+[153.620s] [ 47%] [32mBuilding CXX object CMakeFiles/robot_localization__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_localization/srv/detail/to_ll__type_support.cpp.o[0m
+[154.615s] [ 48%] [32m[1mLinking CXX shared library librobot_localization__rosidl_typesupport_fastrtps_c.so[0m
+[155.086s] [ 48%] Built target robot_localization__rosidl_typesupport_fastrtps_c
+[156.351s] [ 49%] [32m[1mLinking CXX shared library librobot_localization__rosidl_typesupport_introspection_cpp.so[0m
+[156.782s] [ 49%] Built target robot_localization__rosidl_typesupport_introspection_cpp
+[180.852s] [ 50%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/filter_utilities.cpp.o[0m
+[181.961s] [ 51%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/filter_base.cpp.o[0m
+[210.799s] [ 52%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/robot_localization_estimator.cpp.o[0m
+[212.860s] [ 53%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/navsat_transform.cpp.o[0m
+[246.295s] [ 53%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/ros_filter_utilities.cpp.o[0m
+[247.418s] [ 54%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/ros_filter.cpp.o[0m

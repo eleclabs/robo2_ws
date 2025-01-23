@@ -1,0 +1,3 @@
+[console_scripts]
+pid_tuner = myrobot.pid_tuner:main
+

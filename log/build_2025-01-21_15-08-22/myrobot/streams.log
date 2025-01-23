@@ -1,0 +1,21 @@
+[4.265s] Invoking command in '/home/pi/ros2_pi_ws/src/myrobot': PYTHONPATH=/home/pi/ros2_pi_ws/build/myrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_pi_ws/install/myrobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/myrobot build --build-base /home/pi/ros2_pi_ws/build/myrobot/build install --record /home/pi/ros2_pi_ws/build/myrobot/install.log --single-version-externally-managed install_data
+[5.649s] running egg_info
+[5.655s] writing ../../build/myrobot/myrobot.egg-info/PKG-INFO
+[5.656s] writing dependency_links to ../../build/myrobot/myrobot.egg-info/dependency_links.txt
+[5.658s] writing entry points to ../../build/myrobot/myrobot.egg-info/entry_points.txt
+[5.659s] writing requirements to ../../build/myrobot/myrobot.egg-info/requires.txt
+[5.660s] writing top-level names to ../../build/myrobot/myrobot.egg-info/top_level.txt
+[5.672s] reading manifest file '../../build/myrobot/myrobot.egg-info/SOURCES.txt'
+[5.677s] writing manifest file '../../build/myrobot/myrobot.egg-info/SOURCES.txt'
+[5.678s] running build
+[5.678s] running build_py
+[5.680s] running install
+[5.681s] running install_lib
+[5.701s] running install_data
+[5.701s] running install_egg_info
+[5.702s] removing '/home/pi/ros2_pi_ws/install/myrobot/lib/python3.10/site-packages/myrobot-0.0.0-py3.10.egg-info' (and everything under it)
+[5.703s] Copying ../../build/myrobot/myrobot.egg-info to /home/pi/ros2_pi_ws/install/myrobot/lib/python3.10/site-packages/myrobot-0.0.0-py3.10.egg-info
+[5.710s] running install_scripts
+[5.792s] Installing pid_tuner script to /home/pi/ros2_pi_ws/install/myrobot/lib/myrobot
+[5.794s] writing list of installed files to '/home/pi/ros2_pi_ws/build/myrobot/install.log'
+[5.921s] Invoked command in '/home/pi/ros2_pi_ws/src/myrobot' returned '0': PYTHONPATH=/home/pi/ros2_pi_ws/build/myrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_pi_ws/install/myrobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/myrobot build --build-base /home/pi/ros2_pi_ws/build/myrobot/build install --record /home/pi/ros2_pi_ws/build/myrobot/install.log --single-version-externally-managed install_data

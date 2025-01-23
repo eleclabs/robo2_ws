@@ -1,0 +1,23 @@
+[0.105s] Invoking command in '/home/pi/microros_pi_ws/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake /home/pi/microros_pi_ws/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/pi/microros_pi_ws/install/robot_localization
+[0.155s] -- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.
+[0.156s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.087s] [31mCMake Error at CMakeLists.txt:18 (find_package):
+[1.088s]   By not providing "Findangles.cmake" in CMAKE_MODULE_PATH this project has
+[1.089s]   asked CMake to find a package configuration file provided by "angles", but
+[1.090s]   CMake did not find one.
+[1.091s] 
+[1.092s]   Could not find a package configuration file provided by "angles" with any
+[1.093s]   of the following names:
+[1.094s] 
+[1.095s]     anglesConfig.cmake
+[1.096s]     angles-config.cmake
+[1.097s] 
+[1.098s]   Add the installation prefix of "angles" to CMAKE_PREFIX_PATH or set
+[1.099s]   "angles_DIR" to a directory containing one of the above files.  If "angles"
+[1.100s]   provides a separate development package or SDK, be sure it has been
+[1.102s]   installed.
+[1.102s] 
+[1.103s] [0m
+[1.103s] -- Configuring incomplete, errors occurred!
+[1.108s] See also "/home/pi/microros_pi_ws/build/robot_localization/CMakeFiles/CMakeOutput.log".
+[1.714s] Invoked command in '/home/pi/microros_pi_ws/build/robot_localization' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake /home/pi/microros_pi_ws/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/pi/microros_pi_ws/install/robot_localization

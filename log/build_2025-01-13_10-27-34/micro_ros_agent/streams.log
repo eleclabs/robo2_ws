@@ -1,0 +1,322 @@
+[0.048s] Invoking command in '/home/pi/microros_pi_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/ros2_ws/install/micro_ros_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/microros_pi_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/pi/microros_pi_ws/install/micro_ros_agent
+[0.072s] Not searching for unused variables given on the command line.
+[0.309s] -- The C compiler identification is GNU 11.4.0
+[0.339s] -- Detecting C compiler ABI info
+[0.639s] -- Detecting C compiler ABI info - done
+[0.666s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.667s] -- Detecting C compile features
+[0.668s] -- Detecting C compile features - done
+[0.895s] -- The CXX compiler identification is GNU 11.4.0
+[0.922s] -- Detecting CXX compiler ABI info
+[1.256s] -- Detecting CXX compiler ABI info - done
+[1.284s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.285s] -- Detecting CXX compile features
+[1.286s] -- Detecting CXX compile features - done
+[1.427s] -- Configuring done
+[1.444s] -- Generating done
+[1.450s] -- Build files have been written to: /home/pi/microros_pi_ws/build/micro_ros_agent
+[1.464s] Invoked command in '/home/pi/microros_pi_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/ros2_ws/install/micro_ros_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/microros_pi_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/pi/microros_pi_ws/install/micro_ros_agent
+[1.471s] Invoking command in '/home/pi/microros_pi_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/ros2_ws/install/micro_ros_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/microros_pi_ws/build/micro_ros_agent -- -j4 -l4
+[1.659s] [  6%] [34m[1mCreating directories for 'xrceagent'[0m
+[1.920s] [ 12%] [34m[1mPerforming download step (git clone) for 'xrceagent'[0m
+[1.994s] Cloning into 'xrceagent'...
+[6.980s] HEAD is now at 57d0862 Release v2.4.2
+[7.213s] [ 18%] [34m[1mPerforming update step for 'xrceagent'[0m
+[7.321s] [ 25%] [34m[1mNo patch step for 'xrceagent'[0m
+[7.413s] [ 31%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[7.447s] loading initial cache file /home/pi/microros_pi_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[7.688s] -- The C compiler identification is GNU 11.4.0
+[7.719s] -- Detecting C compiler ABI info
+[8.024s] -- Detecting C compiler ABI info - done
+[8.050s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.050s] -- Detecting C compile features
+[8.052s] -- Detecting C compile features - done
+[8.280s] -- The CXX compiler identification is GNU 11.4.0
+[8.309s] -- Detecting CXX compiler ABI info
+[8.642s] -- Detecting CXX compiler ABI info - done
+[8.671s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.671s] -- Detecting CXX compile features
+[8.673s] -- Detecting CXX compile features - done
+[8.698s] -- Looking for pthread.h
+[9.018s] -- Looking for pthread.h - found
+[9.019s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.343s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.347s] -- Found Threads: TRUE  
+[9.394s] -- Configuring done
+[9.407s] -- Generating done
+[9.411s] -- Build files have been written to: /home/pi/microros_pi_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[9.487s] [ 37%] [34m[1mPerforming build step for 'xrceagent'[0m
+[9.654s] [ 12%] [34m[1mCreating directories for 'uagent'[0m
+[9.912s] [ 25%] [34m[1mNo download step for 'uagent'[0m
+[10.004s] [ 37%] [34m[1mNo update step for 'uagent'[0m
+[10.095s] [ 50%] [34m[1mNo patch step for 'uagent'[0m
+[10.185s] [ 62%] [34m[1mPerforming configure step for 'uagent'[0m
+[10.219s] loading initial cache file /home/pi/microros_pi_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake
+[10.237s] -- Setting build type to 'Release' as none was specified.
+[10.396s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[10.397s]   The package name passed to `find_package_handle_standard_args` (tinyxml2)
+[10.397s]   does not match the name of the calling package (TinyXML2).  This can lead
+[10.397s]   to problems in calling code that expects `find_package` result variables
+[10.397s]   (e.g., `_FOUND`) to follow a certain pattern.
+[10.398s] Call Stack (most recent call first):
+[10.398s]   cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+[10.398s]   /opt/ros/humble/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)
+[10.399s]   CMakeLists.txt:153 (find_package)
+[10.399s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.399s] [0m
+[10.399s] -- Found tinyxml2: /usr/lib/aarch64-linux-gnu/libtinyxml2.so  
+[10.635s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.663s] -- Configuring done
+[10.710s] -- Generating done
+[10.714s] -- Build files have been written to: /home/pi/microros_pi_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[10.781s] [ 75%] [34m[1mPerforming build step for 'uagent'[0m
+[10.962s] [  2%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o[0m
+[10.964s] [  4%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o[0m
+[10.966s] [  7%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o[0m
+[10.973s] [  9%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o[0m
+[30.375s] [ 11%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o[0m
+[38.956s] [ 14%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o[0m
+[45.842s] [ 16%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o[0m
+[53.400s] [ 19%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o[0m
+[58.357s] [ 21%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o[0m
+[61.054s] [ 23%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o[0m
+[65.623s] [ 26%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o[0m
+[69.600s] [ 28%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o[0m
+[73.728s] [ 30%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o[0m
+[80.437s] [ 33%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o[0m
+[84.019s] [ 35%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o[0m
+[85.614s] [ 38%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o[0m
+[88.548s] [ 40%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o[0m
+[89.644s] [ 42%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o[0m
+[91.569s] [ 45%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o[0m
+[94.014s] [ 47%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o[0m
+[103.520s] [ 50%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o[0m
+[106.354s] [ 52%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o[0m
+[107.685s] [ 54%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o[0m
+[108.340s] [ 57%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o[0m
+[110.837s] [ 59%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o[0m
+[128.259s] [ 61%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o[0m
+[128.824s] [ 64%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o[0m
+[131.958s] [ 66%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o[0m
+[134.222s] [ 69%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o[0m
+[149.959s] [ 71%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o[0m
+[152.313s] [ 73%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o[0m
+[154.317s] [ 76%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o[0m
+[154.484s] [ 78%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o[0m
+[170.136s] [ 80%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o[0m
+[171.424s] [ 83%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o[0m
+[172.038s] [ 85%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o[0m
+[172.815s] [ 88%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o[0m
+[175.412s] [ 90%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o[0m
+[180.342s] [ 92%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o[0m
+[186.035s] [ 95%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o[0m
+[188.360s] [ 97%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o[0m
+[223.143s] [100%] [32m[1mLinking CXX shared library libmicroxrcedds_agent.so[0m
+[224.427s] [100%] Built target microxrcedds_agent
+[224.528s] [34m[1mNo install step for 'uagent'[0m
+[224.615s] [34m[1mCompleted 'uagent'[0m
+[224.735s] Built target uagent
+[224.834s] [ 43%] [34m[1mPerforming install step for 'xrceagent'[0m
+[224.999s] [35m[1mConsolidate compiler generated dependencies of target microxrcedds_agent[0m
+[225.305s] [100%] Built target microxrcedds_agent
+[225.378s] [36mInstall the project...[0m
+[225.408s] -- Install configuration: "Release"
+[225.409s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.2
+[225.430s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4
+[225.432s] -- Set runtime path of "/home/pi/microros_pi_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.2" to ""
+[225.433s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so
+[225.433s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent
+[225.434s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/client
+[225.435s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/client/session
+[225.435s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp
+[225.436s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream
+[225.437s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp
+[225.438s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp
+[225.439s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp
+[225.440s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp
+[225.441s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/subscriber
+[225.442s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp
+[225.443s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/topic
+[225.443s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp
+[225.444s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/participant
+[225.445s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp
+[225.446s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/reader
+[225.446s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp
+[225.447s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/object
+[225.448s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp
+[225.449s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/requester
+[225.450s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp
+[225.450s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/publisher
+[225.451s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp
+[225.452s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/message
+[225.453s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp
+[225.454s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp
+[225.455s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp
+[225.456s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/scheduler
+[225.456s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp
+[225.457s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp
+[225.458s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/processor
+[225.459s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp
+[225.460s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/p2p
+[225.460s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp
+[225.461s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp
+[225.462s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp
+[225.463s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp
+[225.464s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/middleware
+[225.465s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds
+[225.466s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp
+[225.467s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp
+[225.468s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils
+[225.469s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp
+[225.470s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced
+[225.470s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp
+[225.472s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp
+[225.473s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast
+[225.474s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp
+[225.475s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp
+[225.476s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp
+[225.477s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp
+[225.478s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/types
+[225.478s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp
+[225.479s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp
+[225.480s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp
+[225.484s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp
+[225.485s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp
+[225.486s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/datawriter
+[225.487s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp
+[225.488s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/logger
+[225.488s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp
+[225.489s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp
+[225.490s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport
+[225.491s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/udp
+[225.491s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp
+[225.493s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp
+[225.494s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp
+[225.494s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp
+[225.495s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing
+[225.496s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp
+[225.497s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp
+[225.498s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp
+[225.499s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp
+[225.500s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp
+[225.501s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp
+[225.502s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp
+[225.503s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp
+[225.504s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp
+[225.505s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/can
+[225.506s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp
+[225.507s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint
+[225.507s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp
+[225.509s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp
+[225.509s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp
+[225.511s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp
+[225.512s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp
+[225.513s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp
+[225.514s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/custom
+[225.514s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp
+[225.515s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p
+[225.516s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp
+[225.517s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp
+[225.518s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/util
+[225.519s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp
+[225.520s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp
+[225.521s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery
+[225.522s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp
+[225.523s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp
+[225.524s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp
+[225.525s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/serial
+[225.525s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp
+[225.527s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp
+[225.528s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp
+[225.529s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp
+[225.530s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp
+[225.531s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h
+[225.532s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp
+[225.533s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp
+[225.534s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/datareader
+[225.534s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp
+[225.535s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/utils
+[225.536s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp
+[225.537s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp
+[225.538s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp
+[225.539s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp
+[225.540s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp
+[225.541s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp
+[225.542s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp
+[225.543s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp
+[225.544s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp
+[225.545s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/replier
+[225.546s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp
+[225.547s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake
+[225.549s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake
+[225.550s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/include/uxr/agent/config.hpp
+[225.551s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE
+[225.552s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake
+[225.553s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake
+[225.622s] [ 50%] [34m[1mCompleted 'xrceagent'[0m
+[225.742s] [ 50%] Built target xrceagent
+[225.829s] [ 56%] [34m[1mCreating directories for 'micro_ros_agent'[0m
+[226.087s] [ 62%] [34m[1mNo download step for 'micro_ros_agent'[0m
+[226.175s] [ 68%] [34m[1mNo update step for 'micro_ros_agent'[0m
+[226.267s] [ 75%] [34m[1mNo patch step for 'micro_ros_agent'[0m
+[226.358s] [ 81%] [34m[1mPerforming configure step for 'micro_ros_agent'[0m
+[226.392s] loading initial cache file /home/pi/microros_pi_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake
+[226.427s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[227.128s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[227.990s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[228.015s] -- Looking for C++ include pthread.h
+[228.387s] -- Looking for C++ include pthread.h - found
+[228.388s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[228.793s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[228.798s] -- Found Threads: TRUE  
+[228.837s] -- Found rosidl_cmake: 3.1.6 (/opt/ros/humble/share/rosidl_cmake/cmake)
+[228.852s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[228.963s] -- Found fastrtps_cmake_module: 2.2.2 (/opt/ros/humble/share/fastrtps_cmake_module/cmake)
+[228.978s] -- Found rmw_dds_common: 1.6.0 (/opt/ros/humble/share/rmw_dds_common/cmake)
+[229.196s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[229.253s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[229.295s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[229.364s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[229.453s] -- Found rmw_fastrtps_shared_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake)
+[229.696s] -- Found FastRTPS: /opt/ros/humble/include  
+[229.712s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[229.731s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[229.736s] -- Found micro_ros_msgs: 3.0.1 (/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)
+[230.066s] -- Configuring done
+[230.115s] -- Generating done
+[230.129s] -- Build files have been written to: /home/pi/microros_pi_ws/build/micro_ros_agent
+[230.208s] [ 87%] [34m[1mPerforming build step for 'micro_ros_agent'[0m
+[230.383s] [ 16%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o[0m
+[230.385s] [ 33%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o[0m
+[230.388s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o[0m
+[230.392s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o[0m
+[241.182s] [ 83%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o[0m
+[249.649s] [100%] [32m[1mLinking CXX executable micro_ros_agent[0m
+[251.221s] [100%] Built target micro_ros_agent
+[251.315s] [34m[1mNo install step for 'micro_ros_agent'[0m
+[251.404s] [34m[1mCompleted 'micro_ros_agent'[0m
+[251.523s] Built target micro_ros_agent
+[251.560s] Invoked command in '/home/pi/microros_pi_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/ros2_ws/install/micro_ros_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/microros_pi_ws/build/micro_ros_agent -- -j4 -l4
+[251.569s] Invoking command in '/home/pi/microros_pi_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/ros2_ws/install/micro_ros_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/microros_pi_ws/build/micro_ros_agent
+[251.598s] -- Install configuration: ""
+[251.598s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[251.600s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[251.602s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[251.603s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[251.604s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[251.605s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[251.606s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[251.608s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[251.609s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[251.610s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[251.611s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[251.612s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[251.614s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[251.615s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[251.616s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[251.617s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[251.618s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[251.629s] -- Set runtime path of "/home/pi/microros_pi_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""
+[251.629s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/launch
+[251.630s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[251.637s] Invoked command in '/home/pi/microros_pi_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/ros2_ws/install/micro_ros_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/microros_pi_ws/build/micro_ros_agent

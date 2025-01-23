@@ -1,0 +1,22 @@
+[3.967s] Invoking command in '/home/pi/ros2_pi_ws/src/opencv_tools': PYTHONPATH=/home/pi/ros2_pi_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_pi_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/pi/ros2_pi_ws/build/opencv_tools/build install --record /home/pi/ros2_pi_ws/build/opencv_tools/install.log --single-version-externally-managed install_data
+[5.115s] running egg_info
+[5.118s] writing ../../build/opencv_tools/opencv_tools.egg-info/PKG-INFO
+[5.119s] writing dependency_links to ../../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt
+[5.120s] writing entry points to ../../build/opencv_tools/opencv_tools.egg-info/entry_points.txt
+[5.121s] writing requirements to ../../build/opencv_tools/opencv_tools.egg-info/requires.txt
+[5.122s] writing top-level names to ../../build/opencv_tools/opencv_tools.egg-info/top_level.txt
+[5.129s] reading manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[5.133s] writing manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[5.134s] running build
+[5.134s] running build_py
+[5.135s] running install
+[5.137s] running install_lib
+[5.142s] running install_data
+[5.142s] running install_egg_info
+[5.153s] removing '/home/pi/ros2_pi_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools-0.0.0-py3.10.egg-info' (and everything under it)
+[5.155s] Copying ../../build/opencv_tools/opencv_tools.egg-info to /home/pi/ros2_pi_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools-0.0.0-py3.10.egg-info
+[5.160s] running install_scripts
+[5.235s] Installing img_pub_node script to /home/pi/ros2_pi_ws/install/opencv_tools/lib/opencv_tools
+[5.236s] Installing img_sub_node script to /home/pi/ros2_pi_ws/install/opencv_tools/lib/opencv_tools
+[5.237s] writing list of installed files to '/home/pi/ros2_pi_ws/build/opencv_tools/install.log'
+[5.349s] Invoked command in '/home/pi/ros2_pi_ws/src/opencv_tools' returned '0': PYTHONPATH=/home/pi/ros2_pi_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_pi_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/pi/ros2_pi_ws/build/opencv_tools/build install --record /home/pi/ros2_pi_ws/build/opencv_tools/install.log --single-version-externally-managed install_data

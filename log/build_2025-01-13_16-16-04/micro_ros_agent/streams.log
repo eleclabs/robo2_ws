@@ -1,0 +1,45 @@
+[0.047s] Invoking command in '/home/pi/microros_pi_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/microros_pi_ws/install/micro_ros_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/lib:/home/pi/microros_pi_ws/install/micro_ros_agent/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/pi/microros_pi_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/pi/microros_pi_ws/install/micro_ros_agent
+[0.070s] Not searching for unused variables given on the command line.
+[0.084s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.723s] -- Found rosidl_cmake: 3.1.6 (/opt/ros/humble/share/rosidl_cmake/cmake)
+[0.724s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.816s] -- Found fastrtps_cmake_module: 2.2.2 (/opt/ros/humble/share/fastrtps_cmake_module/cmake)
+[0.818s] -- Found rmw_dds_common: 1.6.0 (/opt/ros/humble/share/rmw_dds_common/cmake)
+[0.925s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.953s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.981s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.020s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.080s] -- Found rmw_fastrtps_shared_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake)
+[1.302s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.307s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.310s] -- Found micro_ros_msgs: 3.0.1 (/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)
+[1.618s] -- Configuring done
+[1.666s] -- Generating done
+[1.680s] -- Build files have been written to: /home/pi/microros_pi_ws/build/micro_ros_agent
+[1.698s] Invoked command in '/home/pi/microros_pi_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/microros_pi_ws/install/micro_ros_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/lib:/home/pi/microros_pi_ws/install/micro_ros_agent/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/pi/microros_pi_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/pi/microros_pi_ws/install/micro_ros_agent
+[1.705s] Invoking command in '/home/pi/microros_pi_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/microros_pi_ws/install/micro_ros_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/lib:/home/pi/microros_pi_ws/install/micro_ros_agent/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/pi/microros_pi_ws/build/micro_ros_agent -- -j4 -l4
+[1.872s] [35m[1mConsolidate compiler generated dependencies of target micro_ros_agent[0m
+[1.995s] [100%] Built target micro_ros_agent
+[2.036s] Invoked command in '/home/pi/microros_pi_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/microros_pi_ws/install/micro_ros_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/lib:/home/pi/microros_pi_ws/install/micro_ros_agent/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/pi/microros_pi_ws/build/micro_ros_agent -- -j4 -l4
+[2.045s] Invoking command in '/home/pi/microros_pi_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/microros_pi_ws/install/micro_ros_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/lib:/home/pi/microros_pi_ws/install/micro_ros_agent/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/pi/microros_pi_ws/build/micro_ros_agent
+[2.073s] -- Install configuration: ""
+[2.073s] -- Up-to-date: /home/pi/microros_pi_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[2.073s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[2.075s] -- Up-to-date: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[2.075s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[2.077s] -- Up-to-date: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[2.077s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[2.078s] -- Up-to-date: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[2.079s] -- Up-to-date: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[2.079s] -- Up-to-date: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[2.080s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[2.081s] -- Installing: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[2.082s] -- Up-to-date: /home/pi/microros_pi_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[2.082s] -- Up-to-date: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.083s] -- Up-to-date: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[2.083s] -- Up-to-date: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[2.084s] -- Up-to-date: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[2.085s] -- Up-to-date: /home/pi/microros_pi_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[2.086s] -- Up-to-date: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/launch
+[2.086s] -- Up-to-date: /home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[2.093s] Invoked command in '/home/pi/microros_pi_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/microros_pi_ws/install/micro_ros_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/lib:/home/pi/microros_pi_ws/install/micro_ros_agent/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/pi/microros_pi_ws/build/micro_ros_agent

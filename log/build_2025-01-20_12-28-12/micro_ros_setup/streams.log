@@ -1,0 +1,210 @@
+[0.108s] Invoking command in '/home/pi/ros2_pi_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_pi_ws/install/motor_control:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake /home/pi/ros2_pi_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_pi_ws/install/micro_ros_setup
+[2.844s] -- The C compiler identification is GNU 11.4.0
+[3.717s] -- The CXX compiler identification is GNU 11.4.0
+[3.763s] -- Detecting C compiler ABI info
+[4.219s] -- Detecting C compiler ABI info - done
+[4.256s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.257s] -- Detecting C compile features
+[4.258s] -- Detecting C compile features - done
+[4.275s] -- Detecting CXX compiler ABI info
+[4.814s] -- Detecting CXX compiler ABI info - done
+[4.842s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.843s] -- Detecting CXX compile features
+[4.846s] -- Detecting CXX compile features - done
+[4.893s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.004s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.882s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.431s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.702s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.735s] -- Added test 'lint_cmake' to check CMake code style
+[7.753s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.887s] -- Added test 'xmllint' to check XML markup files
+[7.902s] -- Configuring done
+[7.933s] -- Generating done
+[7.948s] -- Build files have been written to: /home/pi/ros2_pi_ws/build/micro_ros_setup
+[7.964s] Invoked command in '/home/pi/ros2_pi_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_pi_ws/install/motor_control:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake /home/pi/ros2_pi_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/pi/ros2_pi_ws/install/micro_ros_setup
+[7.974s] Invoking command in '/home/pi/ros2_pi_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_pi_ws/install/motor_control:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_pi_ws/build/micro_ros_setup -- -j4 -l4
+[8.129s] Invoked command in '/home/pi/ros2_pi_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_pi_ws/install/motor_control:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake --build /home/pi/ros2_pi_ws/build/micro_ros_setup -- -j4 -l4
+[8.173s] Invoking command in '/home/pi/ros2_pi_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_pi_ws/install/motor_control:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_pi_ws/build/micro_ros_setup
+[8.203s] -- Install configuration: ""
+[8.204s] -- Installing: /home/pi/ros2_pi_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[8.206s] -- Installing: /home/pi/ros2_pi_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[8.208s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[8.208s] -- Installing: /home/pi/ros2_pi_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[8.210s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[8.211s] -- Installing: /home/pi/ros2_pi_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[8.212s] -- Installing: /home/pi/ros2_pi_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[8.214s] -- Installing: /home/pi/ros2_pi_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[8.216s] -- Installing: /home/pi/ros2_pi_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[8.217s] -- Installing: /home/pi/ros2_pi_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[8.219s] -- Installing: /home/pi/ros2_pi_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[8.221s] -- Installing: /home/pi/ros2_pi_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[8.222s] -- Installing: /home/pi/ros2_pi_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[8.224s] -- Installing: /home/pi/ros2_pi_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[8.226s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[8.226s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config
+[8.227s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/generate_lib
+[8.227s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/generate_lib/generic
+[8.228s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[8.228s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[8.229s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[8.229s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[8.230s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[8.230s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[8.231s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[8.232s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[8.233s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[8.234s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/host
+[8.234s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/host/generic
+[8.235s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[8.236s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/host/generic/create.sh
+[8.237s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/host/generic/build.sh
+[8.237s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/host/generic/package.xml
+[8.238s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/host/generic/flash.sh
+[8.239s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[8.239s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[8.240s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[8.241s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[8.241s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/mbed
+[8.242s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/mbed/generic
+[8.243s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/mbed/generic/board.repos
+[8.244s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/mbed/generic/create.sh
+[8.245s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/mbed/generic/build.sh
+[8.246s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/mbed/generic/package.xml
+[8.247s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh
+[8.247s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms
+[8.249s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos
+[8.251s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos
+[8.252s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt
+[8.252s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/mbed/list_apps.sh
+[8.253s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/agent_uros_packages.repos
+[8.254s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[8.255s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos
+[8.255s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[8.256s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[8.257s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[8.258s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[8.259s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[8.259s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[8.260s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[8.260s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[8.261s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[8.262s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[8.262s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[8.263s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[8.264s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[8.265s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[8.266s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[8.266s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[8.267s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[8.268s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[8.269s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[8.269s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[8.270s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/list_apps.sh
+[8.271s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[8.271s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[8.272s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[8.273s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[8.273s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[8.274s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[8.275s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[8.275s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[8.276s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[8.277s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[8.277s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[8.278s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[8.278s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[8.279s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[8.280s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[8.280s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[8.281s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[8.282s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[8.282s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/esp32
+[8.283s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[8.283s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[8.284s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[8.284s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[8.285s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[8.286s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[8.286s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/esp32/README.md
+[8.287s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[8.287s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[8.288s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/crazyflie21
+[8.288s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[8.289s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[8.290s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[8.291s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[8.291s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[8.292s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[8.293s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[8.293s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[8.294s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[8.295s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[8.295s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[8.296s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[8.297s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[8.297s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[8.298s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[8.299s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[8.299s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[8.300s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/zephyr
+[8.300s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/zephyr/generic
+[8.301s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[8.301s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[8.302s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[8.302s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[8.303s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[8.304s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[8.304s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[8.305s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[8.305s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[8.306s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[8.307s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[8.307s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[8.308s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/raspbian
+[8.308s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/raspbian/generic
+[8.309s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[8.309s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[8.310s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[8.311s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[8.312s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[8.312s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[8.313s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[8.313s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[8.314s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[8.314s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/utils.sh
+[8.315s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/renesas_ra
+[8.315s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos
+[8.316s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5
+[8.316s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos
+[8.317s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh
+[8.318s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh
+[8.318s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta
+[8.320s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh
+[8.322s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh
+[8.323s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos
+[8.324s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt
+[8.326s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh
+[8.328s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/client_ros2_packages.txt
+[8.331s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/client_uros_packages.repos
+[8.333s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/android
+[8.337s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/android/generic
+[8.339s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/android/generic/create.sh
+[8.340s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[8.341s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/android/generic/build.sh
+[8.342s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/android/generic/package.xml
+[8.343s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/android/generic/flash.sh
+[8.343s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[8.343s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[8.345s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[8.346s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[8.347s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[8.348s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[8.348s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[8.349s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[8.350s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[8.351s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[8.352s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[8.353s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[8.353s] -- Up-to-date: /home/pi/ros2_pi_ws/install/micro_ros_setup/lib/micro_ros_setup/component
+[8.354s] Invoked command in '/home/pi/ros2_pi_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ros2_pi_ws/install/motor_control:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake --install /home/pi/ros2_pi_ws/build/micro_ros_setup

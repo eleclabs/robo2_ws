@@ -1,0 +1,204 @@
+[0.000000] (-) TimerEvent: {}
+[0.001755] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.002247] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.002430] (motor_control) JobQueued: {'identifier': 'motor_control', 'dependencies': OrderedDict()}
+[0.002513] (robot_localization) JobQueued: {'identifier': 'robot_localization', 'dependencies': OrderedDict()}
+[0.002590] (robot_odom) JobQueued: {'identifier': 'robot_odom', 'dependencies': OrderedDict()}
+[0.002669] (diffdrive_description) JobQueued: {'identifier': 'diffdrive_description', 'dependencies': OrderedDict([('robot_localization', '/home/pi/microros_pi_ws/install/robot_localization')])}
+[0.002754] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/pi/microros_pi_ws/install/micro_ros_msgs')])}
+[0.002837] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.028123] (robot_localization) JobStarted: {'identifier': 'robot_localization'}
+[0.046937] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.066423] (motor_control) JobStarted: {'identifier': 'motor_control'}
+[0.099744] (-) TimerEvent: {}
+[0.101282] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.103040] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/microros_pi_ws/src/uros/micro_ros_msgs', '-DCMAKE_INSTALL_PREFIX=/home/pi/microros_pi_ws/install/micro_ros_msgs'], 'cwd': '/home/pi/microros_pi_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.1.121 38600 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/microros_pi_ws/install/micro_ros_agent/lib:/home/pi/microros_pi_ws/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/microros_pi_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'th_TH.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/microros_pi_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/pi/microros_pi_ws/install/robot_odom:/home/pi/microros_pi_ws/install/motor_control:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/microros_pi_ws/install/micro_ros_agent:/home/pi/microros_pi_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('PWD', '/home/pi/microros_pi_ws/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.121 38600 192.168.1.141 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/microros_pi_ws/install/motor_control/lib/python3.10/site-packages:/home/pi/microros_pi_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/microros_pi_ws/install/robot_odom:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/microros_pi_ws/install/micro_ros_agent:/home/pi/microros_pi_ws/install/micro_ros_msgs:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble')]), 'shell': False}
+[0.115837] (robot_localization) JobProgress: {'identifier': 'robot_localization', 'progress': 'cmake'}
+[0.117868] (robot_localization) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/microros_pi_ws/src/robot_localization', '-DCMAKE_INSTALL_PREFIX=/home/pi/microros_pi_ws/install/robot_localization'], 'cwd': '/home/pi/microros_pi_ws/build/robot_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.1.121 38600 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/microros_pi_ws/install/micro_ros_agent/lib:/home/pi/microros_pi_ws/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/microros_pi_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'th_TH.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/microros_pi_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/pi/microros_pi_ws/install/robot_odom:/home/pi/microros_pi_ws/install/motor_control:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/microros_pi_ws/install/micro_ros_agent:/home/pi/microros_pi_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('PWD', '/home/pi/microros_pi_ws/build/robot_localization'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.121 38600 192.168.1.141 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/microros_pi_ws/install/motor_control/lib/python3.10/site-packages:/home/pi/microros_pi_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/microros_pi_ws/install/robot_odom:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/microros_pi_ws/install/micro_ros_agent:/home/pi/microros_pi_ws/install/micro_ros_msgs:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble')]), 'shell': False}
+[0.129757] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[0.132508] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/microros_pi_ws/src/micro_ros_setup', '-DCMAKE_INSTALL_PREFIX=/home/pi/microros_pi_ws/install/micro_ros_setup'], 'cwd': '/home/pi/microros_pi_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.1.121 38600 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/microros_pi_ws/install/micro_ros_agent/lib:/home/pi/microros_pi_ws/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/microros_pi_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'th_TH.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/microros_pi_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/pi/microros_pi_ws/install/robot_odom:/home/pi/microros_pi_ws/install/motor_control:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/microros_pi_ws/install/micro_ros_agent:/home/pi/microros_pi_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('PWD', '/home/pi/microros_pi_ws/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.121 38600 192.168.1.141 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/microros_pi_ws/install/motor_control/lib/python3.10/site-packages:/home/pi/microros_pi_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/microros_pi_ws/install/robot_odom:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/microros_pi_ws/install/micro_ros_agent:/home/pi/microros_pi_ws/install/micro_ros_msgs:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble')]), 'shell': False}
+[0.199943] (-) TimerEvent: {}
+[0.300933] (-) TimerEvent: {}
+[0.402918] (-) TimerEvent: {}
+[0.447726] (robot_localization) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.456499] (micro_ros_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.474640] (micro_ros_setup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.503101] (-) TimerEvent: {}
+[0.604446] (-) TimerEvent: {}
+[0.706808] (-) TimerEvent: {}
+[0.775703] (robot_localization) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.797250] (micro_ros_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.807024] (-) TimerEvent: {}
+[0.811241] (micro_ros_setup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.833299] (robot_localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.840499] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.843212] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.907333] (-) TimerEvent: {}
+[1.008221] (-) TimerEvent: {}
+[1.110491] (-) TimerEvent: {}
+[1.212140] (-) TimerEvent: {}
+[1.216748] (robot_localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.231597] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.249722] (robot_localization) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.251242] (robot_localization) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.253334] (robot_localization) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.268788] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.270333] (robot_localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.273020] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.276218] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.292301] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.300032] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.312332] (-) TimerEvent: {}
+[1.331570] (micro_ros_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.332669] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.334402] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.347490] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.412625] (-) TimerEvent: {}
+[1.513754] (-) TimerEvent: {}
+[1.614959] (-) TimerEvent: {}
+[1.716853] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.717654] (-) TimerEvent: {}
+[1.732041] (robot_localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.751477] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.753737] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.755345] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.768119] (robot_localization) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.770785] (robot_localization) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.774278] (robot_localization) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.780077] (robot_localization) StdoutLine: {'line': b"-- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.\n"}
+[1.785970] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.810076] (robot_localization) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.818086] (-) TimerEvent: {}
+[1.847974] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.887230] (micro_ros_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.889125] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.891940] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.918334] (-) TimerEvent: {}
+[1.934085] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.018586] (-) TimerEvent: {}
+[2.119689] (-) TimerEvent: {}
+[2.221522] (-) TimerEvent: {}
+[2.323989] (-) TimerEvent: {}
+[2.425757] (-) TimerEvent: {}
+[2.527478] (-) TimerEvent: {}
+[2.628469] (-) TimerEvent: {}
+[2.729296] (-) TimerEvent: {}
+[2.831068] (-) TimerEvent: {}
+[2.891865] (micro_ros_setup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.931442] (-) TimerEvent: {}
+[2.959084] (robot_localization) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.024418] (micro_ros_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.031670] (-) TimerEvent: {}
+[3.132574] (-) TimerEvent: {}
+[3.233604] (-) TimerEvent: {}
+[3.334824] (-) TimerEvent: {}
+[3.435666] (-) TimerEvent: {}
+[3.536528] (-) TimerEvent: {}
+[3.606901] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.636771] (-) TimerEvent: {}
+[3.708708] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.724045] (robot_localization) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:18 (find_package):\n'}
+[3.725231] (robot_localization) StderrLine: {'line': b'  By not providing "Findangles.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[3.725910] (robot_localization) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "angles", but\n'}
+[3.726379] (robot_localization) StderrLine: {'line': b'  CMake did not find one.\n'}
+[3.726795] (robot_localization) StderrLine: {'line': b'\n'}
+[3.727213] (robot_localization) StderrLine: {'line': b'  Could not find a package configuration file provided by "angles" with any\n'}
+[3.727626] (robot_localization) StderrLine: {'line': b'  of the following names:\n'}
+[3.728042] (robot_localization) StderrLine: {'line': b'\n'}
+[3.728529] (robot_localization) StderrLine: {'line': b'    anglesConfig.cmake\n'}
+[3.729046] (robot_localization) StderrLine: {'line': b'    angles-config.cmake\n'}
+[3.729797] (robot_localization) StderrLine: {'line': b'\n'}
+[3.730684] (robot_localization) StderrLine: {'line': b'  Add the installation prefix of "angles" to CMAKE_PREFIX_PATH or set\n'}
+[3.731976] (robot_localization) StderrLine: {'line': b'  "angles_DIR" to a directory containing one of the above files.  If "angles"\n'}
+[3.733295] (robot_localization) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[3.734178] (robot_localization) StderrLine: {'line': b'  installed.\n'}
+[3.734962] (robot_localization) StderrLine: {'line': b'\n'}
+[3.735569] (robot_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[3.736351] (robot_localization) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.736953] (-) TimerEvent: {}
+[3.742454] (robot_localization) StdoutLine: {'line': b'See also "/home/pi/microros_pi_ws/build/robot_localization/CMakeFiles/CMakeOutput.log".\n'}
+[3.750839] (robot_localization) CommandEnded: {'returncode': 1}
+[3.752186] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.836228] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.837105] (-) TimerEvent: {}
+[3.859058] (robot_localization) JobEnded: {'identifier': 'robot_localization', 'rc': 1}
+[3.937377] (-) TimerEvent: {}
+[4.038822] (-) TimerEvent: {}
+[4.140224] (-) TimerEvent: {}
+[4.221524] (motor_control) JobEnded: {'identifier': 'motor_control', 'rc': 'SIGINT'}
+[4.240370] (-) TimerEvent: {}
+[4.296268] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.301529] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.340535] (-) TimerEvent: {}
+[4.441234] (-) TimerEvent: {}
+[4.541922] (-) TimerEvent: {}
+[4.555587] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.556877] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.587233] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.605358] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.642062] (-) TimerEvent: {}
+[4.740020] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.742189] (-) TimerEvent: {}
+[4.751147] (micro_ros_setup) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.772697] (micro_ros_setup) StdoutLine: {'line': b'-- Generating done\n'}
+[4.782394] (micro_ros_setup) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/microros_pi_ws/build/micro_ros_setup\n'}
+[4.805073] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 'SIGINT'}
+[4.842414] (-) TimerEvent: {}
+[4.943091] (-) TimerEvent: {}
+[5.043749] (-) TimerEvent: {}
+[5.144536] (-) TimerEvent: {}
+[5.245207] (-) TimerEvent: {}
+[5.345856] (-) TimerEvent: {}
+[5.446657] (-) TimerEvent: {}
+[5.547684] (-) TimerEvent: {}
+[5.648578] (-) TimerEvent: {}
+[5.749294] (-) TimerEvent: {}
+[5.849958] (-) TimerEvent: {}
+[5.855604] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.950173] (-) TimerEvent: {}
+[6.050919] (-) TimerEvent: {}
+[6.151592] (-) TimerEvent: {}
+[6.252203] (-) TimerEvent: {}
+[6.353012] (-) TimerEvent: {}
+[6.453888] (-) TimerEvent: {}
+[6.554548] (-) TimerEvent: {}
+[6.655285] (-) TimerEvent: {}
+[6.711239] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.755441] (-) TimerEvent: {}
+[6.856259] (-) TimerEvent: {}
+[6.957339] (-) TimerEvent: {}
+[7.058210] (-) TimerEvent: {}
+[7.158880] (-) TimerEvent: {}
+[7.259696] (-) TimerEvent: {}
+[7.360347] (-) TimerEvent: {}
+[7.461105] (-) TimerEvent: {}
+[7.562179] (-) TimerEvent: {}
+[7.662849] (-) TimerEvent: {}
+[7.748789] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.763005] (-) TimerEvent: {}
+[7.857463] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[7.863129] (-) TimerEvent: {}
+[7.876579] (micro_ros_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[7.963498] (-) TimerEvent: {}
+[7.992921] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[7.993676] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.994060] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[7.994432] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[8.063536] (-) TimerEvent: {}
+[8.090958] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[8.163714] (-) TimerEvent: {}
+[8.250417] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[8.263876] (-) TimerEvent: {}
+[8.342014] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.364027] (-) TimerEvent: {}
+[8.385078] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.424135] (micro_ros_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.464194] (-) TimerEvent: {}
+[8.564839] (-) TimerEvent: {}
+[8.584236] (micro_ros_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[8.624561] (micro_ros_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/microros_pi_ws/build/micro_ros_msgs\n'}
+[8.643376] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 'SIGINT'}
+[8.646404] (robot_odom) JobSkipped: {'identifier': 'robot_odom'}
+[8.646530] (diffdrive_description) JobSkipped: {'identifier': 'diffdrive_description'}
+[8.646606] (micro_ros_agent) JobSkipped: {'identifier': 'micro_ros_agent'}
+[8.646679] (-) EventReactorShutdown: {}

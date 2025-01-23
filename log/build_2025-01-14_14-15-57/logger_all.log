@@ -1,0 +1,423 @@
+[0.604s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.605s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff9dca49a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9ddd5930>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9ddd5930>>, mixin_verb=('build',))
+[1.535s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.537s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.537s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/microros_pi_ws'
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.538s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[1.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[1.628s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[1.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_odom) by extensions ['ignore', 'ignore_ament_install']
+[1.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_odom) by extension 'ignore'
+[1.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_odom) by extension 'ignore_ament_install'
+[1.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_odom) by extensions ['colcon_pkg']
+[1.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_odom) by extension 'colcon_pkg'
+[1.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_odom) by extensions ['colcon_meta']
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_odom) by extension 'colcon_meta'
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_odom) by extensions ['ros']
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_odom) by extension 'ros'
+[1.638s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_odom' with type 'ros.ament_cmake' and name 'robot_odom'
+[1.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[1.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[1.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[1.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[1.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[1.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[1.656s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ros'
+[1.677s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[1.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.787s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/pi/microros_pi_ws/install
+[1.794s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 181 installed packages in /opt/ros/humble
+[1.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.990s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[1.990s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[1.990s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.990s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.990s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.991s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.991s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.991s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.991s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.991s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/microros_pi_ws/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/microros_pi_ws/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/pi/microros_pi_ws/src/uros/micro_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.993s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[1.993s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[1.993s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.994s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.994s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[1.994s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[1.994s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[1.994s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.994s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.994s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/microros_pi_ws/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/microros_pi_ws/install/micro_ros_setup', 'merge_install': False, 'path': '/home/pi/microros_pi_ws/src/micro_ros_setup', 'symlink_install': False, 'test_result_base': None}
+[1.996s] Level 5:colcon.colcon_core.verb:set package 'robot_odom' build argument 'cmake_args' from command line to 'None'
+[1.997s] Level 5:colcon.colcon_core.verb:set package 'robot_odom' build argument 'cmake_target' from command line to 'None'
+[1.997s] Level 5:colcon.colcon_core.verb:set package 'robot_odom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.997s] Level 5:colcon.colcon_core.verb:set package 'robot_odom' build argument 'cmake_clean_cache' from command line to 'False'
+[1.997s] Level 5:colcon.colcon_core.verb:set package 'robot_odom' build argument 'cmake_clean_first' from command line to 'False'
+[1.997s] Level 5:colcon.colcon_core.verb:set package 'robot_odom' build argument 'cmake_force_configure' from command line to 'False'
+[1.997s] Level 5:colcon.colcon_core.verb:set package 'robot_odom' build argument 'ament_cmake_args' from command line to 'None'
+[1.997s] Level 5:colcon.colcon_core.verb:set package 'robot_odom' build argument 'catkin_cmake_args' from command line to 'None'
+[1.997s] Level 5:colcon.colcon_core.verb:set package 'robot_odom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.998s] DEBUG:colcon.colcon_core.verb:Building package 'robot_odom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/microros_pi_ws/build/robot_odom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/microros_pi_ws/install/robot_odom', 'merge_install': False, 'path': '/home/pi/microros_pi_ws/src/robot_odom', 'symlink_install': False, 'test_result_base': None}
+[1.999s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[2.000s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[2.000s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.000s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[2.000s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[2.000s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[2.000s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[2.000s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[2.001s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.001s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/microros_pi_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/microros_pi_ws/install/micro_ros_agent', 'merge_install': False, 'path': '/home/pi/microros_pi_ws/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}
+[2.001s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.005s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.006s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/microros_pi_ws/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[2.007s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/microros_pi_ws/src/uros/micro_ros_msgs'
+[2.021s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.023s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.023s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.044s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/microros_pi_ws/src/micro_ros_setup' with build type 'ament_cmake'
+[2.044s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/microros_pi_ws/src/micro_ros_setup'
+[2.046s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.046s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.066s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/microros_pi_ws/src/robot_odom' with build type 'ament_cmake'
+[2.067s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/microros_pi_ws/src/robot_odom'
+[2.069s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.069s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/microros_pi_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/microros_pi_ws/build/micro_ros_msgs -- -j4 -l4
+[2.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/microros_pi_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/microros_pi_ws/build/micro_ros_setup -- -j4 -l4
+[2.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/microros_pi_ws/build/robot_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi/microros_pi_ws/src/robot_odom -DCMAKE_INSTALL_PREFIX=/home/pi/microros_pi_ws/install/robot_odom
+[2.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/microros_pi_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/microros_pi_ws/build/micro_ros_setup -- -j4 -l4
+[2.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/microros_pi_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/microros_pi_ws/build/micro_ros_setup
+[2.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[2.868s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_setup' for CMake module files
+[2.910s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_setup' for CMake config files
+[2.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[2.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[2.936s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/microros_pi_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[2.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[2.958s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_setup/lib'
+[2.960s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_setup/bin'
+[2.960s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[2.962s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[2.963s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_setup/bin'
+[2.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[2.992s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/microros_pi_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[2.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[3.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[3.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[3.010s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/microros_pi_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[3.014s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[3.016s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_setup' for CMake module files
+[3.020s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_setup' for CMake config files
+[3.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[3.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[3.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/microros_pi_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[3.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[3.078s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_setup/lib'
+[3.079s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_setup/bin'
+[3.079s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[3.081s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[3.082s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_setup/bin'
+[3.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[3.092s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/microros_pi_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[3.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[3.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[3.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[3.132s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/microros_pi_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[3.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/microros_pi_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/microros_pi_ws/build/micro_ros_setup
+[4.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/microros_pi_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/microros_pi_ws/build/micro_ros_msgs -- -j4 -l4
+[4.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/microros_pi_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/microros_pi_ws/build/micro_ros_msgs
+[5.398s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[5.399s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_msgs' for CMake module files
+[5.404s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_msgs' for CMake config files
+[5.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[5.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[5.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[5.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[5.430s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_msgs/lib'
+[5.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[5.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[5.435s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[5.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/microros_pi_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/microros_pi_ws/build/micro_ros_msgs
+[5.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[5.444s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_msgs/bin'
+[5.445s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[5.446s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_msgs/lib/python3.10/site-packages'
+[5.447s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_msgs/bin'
+[5.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[5.452s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[5.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[5.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[5.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[5.463s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/microros_pi_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[5.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[5.478s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_msgs' for CMake module files
+[5.492s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_msgs' for CMake config files
+[5.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[5.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[5.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[5.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[5.512s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_msgs/lib'
+[5.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[5.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[5.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[5.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[5.531s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_msgs/bin'
+[5.532s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[5.535s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_msgs/lib/python3.10/site-packages'
+[5.537s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_msgs/bin'
+[5.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[5.547s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[5.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[5.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[5.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[5.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/microros_pi_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[5.575s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/microros_pi_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[5.577s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/microros_pi_ws/src/uros/micro-ROS-Agent/micro_ros_agent'
+[5.578s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.578s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/microros_pi_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/microros_pi_ws/install/micro_ros_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/lib:/home/pi/microros_pi_ws/install/micro_ros_agent/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/pi/microros_pi_ws/build/micro_ros_agent -- -j4 -l4
+[5.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/microros_pi_ws/build/robot_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi/microros_pi_ws/src/robot_odom -DCMAKE_INSTALL_PREFIX=/home/pi/microros_pi_ws/install/robot_odom
+[5.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/microros_pi_ws/build/robot_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/microros_pi_ws/build/robot_odom -- -j4 -l4
+[6.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/microros_pi_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/microros_pi_ws/install/micro_ros_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/lib:/home/pi/microros_pi_ws/install/micro_ros_agent/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/pi/microros_pi_ws/build/micro_ros_agent -- -j4 -l4
+[6.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/microros_pi_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/microros_pi_ws/install/micro_ros_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/lib:/home/pi/microros_pi_ws/install/micro_ros_agent/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/pi/microros_pi_ws/build/micro_ros_agent
+[6.224s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[6.225s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_agent' for CMake module files
+[6.230s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_agent' for CMake config files
+[6.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[6.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[6.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/microros_pi_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs:/home/pi/microros_pi_ws/install/micro_ros_setup:/home/pi/microros_pi_ws/install/micro_ros_agent:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/microros_pi_ws/install/micro_ros_msgs/lib:/home/pi/microros_pi_ws/install/micro_ros_agent/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/pi/microros_pi_ws/build/micro_ros_agent
+[6.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[6.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[6.253s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_agent/lib'
+[6.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[6.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[6.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[6.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[6.263s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_agent/bin'
+[6.263s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[6.265s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[6.266s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_agent/bin'
+[6.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[6.271s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[6.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[6.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[6.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[6.283s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/microros_pi_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[6.287s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[6.288s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_agent' for CMake module files
+[6.291s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_agent' for CMake config files
+[6.293s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[6.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[6.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[6.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[6.303s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_agent/lib'
+[6.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[6.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[6.308s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[6.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[6.313s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_agent/bin'
+[6.313s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[6.314s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[6.315s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/micro_ros_agent/bin'
+[6.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[6.320s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[6.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[6.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[6.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[6.331s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/microros_pi_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[61.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/microros_pi_ws/build/robot_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/microros_pi_ws/build/robot_odom -- -j4 -l4
+[61.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/microros_pi_ws/build/robot_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/microros_pi_ws/build/robot_odom
+[61.414s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_odom)
+[61.415s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/robot_odom' for CMake module files
+[61.418s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/robot_odom' for CMake config files
+[61.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/microros_pi_ws/build/robot_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/microros_pi_ws/build/robot_odom
+[61.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_odom', 'cmake_prefix_path')
+[61.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/hook/cmake_prefix_path.ps1'
+[61.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/hook/cmake_prefix_path.dsv'
+[61.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/hook/cmake_prefix_path.sh'
+[61.430s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/robot_odom/lib'
+[61.431s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/robot_odom/bin'
+[61.431s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/robot_odom/lib/pkgconfig/robot_odom.pc'
+[61.432s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/robot_odom/lib/python3.10/site-packages'
+[61.433s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/robot_odom/bin'
+[61.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/package.ps1'
+[61.438s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/package.dsv'
+[61.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/package.sh'
+[61.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/package.bash'
+[61.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/package.zsh'
+[61.447s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/microros_pi_ws/install/robot_odom/share/colcon-core/packages/robot_odom)
+[61.450s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_odom)
+[61.452s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/robot_odom' for CMake module files
+[61.455s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/robot_odom' for CMake config files
+[61.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_odom', 'cmake_prefix_path')
+[61.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/hook/cmake_prefix_path.ps1'
+[61.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/hook/cmake_prefix_path.dsv'
+[61.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/hook/cmake_prefix_path.sh'
+[61.466s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/robot_odom/lib'
+[61.466s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/robot_odom/bin'
+[61.467s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/robot_odom/lib/pkgconfig/robot_odom.pc'
+[61.468s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/robot_odom/lib/python3.10/site-packages'
+[61.469s] Level 1:colcon.colcon_core.environment:checking '/home/pi/microros_pi_ws/install/robot_odom/bin'
+[61.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/package.ps1'
+[61.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/package.dsv'
+[61.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/package.sh'
+[61.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/package.bash'
+[61.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/package.zsh'
+[61.485s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/microros_pi_ws/install/robot_odom/share/colcon-core/packages/robot_odom)
+[61.487s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[61.489s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[61.490s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[61.490s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[61.518s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[61.519s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[61.519s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[61.519s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[61.522s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[61.523s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[61.524s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/microros_pi_ws/install/local_setup.ps1'
+[61.531s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/microros_pi_ws/install/_local_setup_util_ps1.py'
+[61.538s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/microros_pi_ws/install/setup.ps1'
+[61.544s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/microros_pi_ws/install/local_setup.sh'
+[61.548s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/microros_pi_ws/install/_local_setup_util_sh.py'
+[61.551s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/microros_pi_ws/install/setup.sh'
+[61.558s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/microros_pi_ws/install/local_setup.bash'
+[61.560s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/microros_pi_ws/install/setup.bash'
+[61.566s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/microros_pi_ws/install/local_setup.zsh'
+[61.568s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/microros_pi_ws/install/setup.zsh'

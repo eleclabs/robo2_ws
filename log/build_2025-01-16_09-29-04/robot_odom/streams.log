@@ -1,0 +1,79 @@
+[0.042s] Invoking command in '/home/pi/microros_pi_ws/build/robot_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake /home/pi/microros_pi_ws/src/robot_odom -DCMAKE_INSTALL_PREFIX=/home/pi/microros_pi_ws/install/robot_odom
+[0.371s] -- The C compiler identification is GNU 11.4.0
+[0.669s] -- The CXX compiler identification is GNU 11.4.0
+[0.709s] -- Detecting C compiler ABI info
+[1.068s] -- Detecting C compiler ABI info - done
+[1.093s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.094s] -- Detecting C compile features
+[1.096s] -- Detecting C compile features - done
+[1.116s] -- Detecting CXX compiler ABI info
+[1.498s] -- Detecting CXX compiler ABI info - done
+[1.524s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.525s] -- Detecting CXX compile features
+[1.527s] -- Detecting CXX compile features - done
+[1.554s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.448s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.097s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[3.459s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.507s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.577s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.665s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.780s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.115s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.141s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.627s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.760s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.995s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.076s] -- Looking for pthread.h
+[5.578s] -- Looking for pthread.h - found
+[5.582s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.266s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.271s] -- Found Threads: TRUE  
+[6.684s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.954s] -- Found tf2: 0.25.9 (/opt/ros/humble/share/tf2/cmake)
+[7.093s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[7.780s] -- Found tf2_geometry_msgs: 0.25.9 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[7.925s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[7.933s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.935s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.972s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.698s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.708s] -- Configured cppcheck include dirs: 
+[8.709s] -- Configured cppcheck exclude dirs and/or files: 
+[8.717s] -- Added test 'lint_cmake' to check CMake code style
+[8.722s] -- Added test 'uncrustify' to check C / C++ code style
+[8.736s] -- Configured uncrustify additional arguments: 
+[8.741s] -- Added test 'xmllint' to check XML markup files
+[8.764s] -- Configuring done
+[8.927s] -- Generating done
+[8.976s] -- Build files have been written to: /home/pi/microros_pi_ws/build/robot_odom
+[9.114s] Invoked command in '/home/pi/microros_pi_ws/build/robot_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake /home/pi/microros_pi_ws/src/robot_odom -DCMAKE_INSTALL_PREFIX=/home/pi/microros_pi_ws/install/robot_odom
+[9.116s] Invoking command in '/home/pi/microros_pi_ws/build/robot_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake --build /home/pi/microros_pi_ws/build/robot_odom -- -j4 -l4
+[9.636s] [ 50%] [32mBuilding CXX object CMakeFiles/odom.dir/src/odom.cpp.o[0m
+[12.340s] In file included from [01m[K/home/pi/microros_pi_ws/src/robot_odom/src/odom.cpp:15[m[K:
+[12.341s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[12.343s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[12.345s]       |  [01;35m[K^~~~~~~[m[K
+[83.185s] [100%] [32m[1mLinking CXX executable odom[0m
+[86.018s] [100%] Built target odom
+[86.068s] Invoked command in '/home/pi/microros_pi_ws/build/robot_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake --build /home/pi/microros_pi_ws/build/robot_odom -- -j4 -l4
+[86.079s] Invoking command in '/home/pi/microros_pi_ws/build/robot_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake --install /home/pi/microros_pi_ws/build/robot_odom
+[86.113s] -- Install configuration: ""
+[86.118s] -- Installing: /home/pi/microros_pi_ws/install/robot_odom/lib/robot_odom/odom
+[86.150s] -- Set runtime path of "/home/pi/microros_pi_ws/install/robot_odom/lib/robot_odom/odom" to ""
+[86.151s] -- Installing: /home/pi/microros_pi_ws/install/robot_odom/share/ament_index/resource_index/package_run_dependencies/robot_odom
+[86.153s] -- Installing: /home/pi/microros_pi_ws/install/robot_odom/share/ament_index/resource_index/parent_prefix_path/robot_odom
+[86.155s] -- Up-to-date: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/environment/ament_prefix_path.sh
+[86.158s] -- Installing: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/environment/ament_prefix_path.dsv
+[86.159s] -- Up-to-date: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/environment/path.sh
+[86.160s] -- Installing: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/environment/path.dsv
+[86.161s] -- Installing: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/local_setup.bash
+[86.162s] -- Installing: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/local_setup.sh
+[86.165s] -- Installing: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/local_setup.zsh
+[86.167s] -- Installing: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/local_setup.dsv
+[86.169s] -- Installing: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/package.dsv
+[86.172s] -- Installing: /home/pi/microros_pi_ws/install/robot_odom/share/ament_index/resource_index/packages/robot_odom
+[86.174s] -- Installing: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/cmake/robot_odomConfig.cmake
+[86.176s] -- Installing: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/cmake/robot_odomConfig-version.cmake
+[86.178s] -- Up-to-date: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/package.xml
+[86.196s] Invoked command in '/home/pi/microros_pi_ws/build/robot_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/microros_pi_ws/install/motor_control:/opt/ros/humble /usr/bin/cmake --install /home/pi/microros_pi_ws/build/robot_odom

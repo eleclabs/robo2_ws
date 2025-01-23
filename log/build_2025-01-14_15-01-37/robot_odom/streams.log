@@ -1,0 +1,23 @@
+[1.880s] Invoking command in '/home/pi/microros_pi_ws/build/robot_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/microros_pi_ws/build/robot_odom -- -j4 -l4
+[2.513s] [35m[1mConsolidate compiler generated dependencies of target odom[0m
+[2.893s] [100%] Built target odom
+[2.948s] Invoked command in '/home/pi/microros_pi_ws/build/robot_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/microros_pi_ws/build/robot_odom -- -j4 -l4
+[2.952s] Invoking command in '/home/pi/microros_pi_ws/build/robot_odom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/microros_pi_ws/build/robot_odom
+[2.996s] -- Install configuration: ""
+[2.998s] -- Up-to-date: /home/pi/microros_pi_ws/install/robot_odom/lib/robot_odom/odom
+[3.001s] -- Up-to-date: /home/pi/microros_pi_ws/install/robot_odom/share/ament_index/resource_index/package_run_dependencies/robot_odom
+[3.004s] -- Up-to-date: /home/pi/microros_pi_ws/install/robot_odom/share/ament_index/resource_index/parent_prefix_path/robot_odom
+[3.005s] -- Up-to-date: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/environment/ament_prefix_path.sh
+[3.009s] -- Up-to-date: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/environment/ament_prefix_path.dsv
+[3.010s] -- Up-to-date: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/environment/path.sh
+[3.012s] -- Up-to-date: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/environment/path.dsv
+[3.029s] -- Up-to-date: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/local_setup.bash
+[3.030s] -- Up-to-date: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/local_setup.sh
+[3.031s] -- Up-to-date: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/local_setup.zsh
+[3.032s] -- Up-to-date: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/local_setup.dsv
+[3.032s] -- Installing: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/package.dsv
+[3.033s] -- Up-to-date: /home/pi/microros_pi_ws/install/robot_odom/share/ament_index/resource_index/packages/robot_odom
+[3.033s] -- Up-to-date: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/cmake/robot_odomConfig.cmake
+[3.034s] -- Up-to-date: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/cmake/robot_odomConfig-version.cmake
+[3.045s] -- Up-to-date: /home/pi/microros_pi_ws/install/robot_odom/share/robot_odom/package.xml
+[3.046s] Invoked command in '/home/pi/microros_pi_ws/build/robot_odom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/microros_pi_ws/build/robot_odom

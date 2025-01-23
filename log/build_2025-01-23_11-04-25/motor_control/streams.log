@@ -1,0 +1,21 @@
+[6.947s] Invoking command in '/home/pi/ros2_pi_ws/src/motor_control': PYTHONPATH=/home/pi/ros2_pi_ws/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_pi_ws/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/pi/ros2_pi_ws/build/motor_control/build install --record /home/pi/ros2_pi_ws/build/motor_control/install.log --single-version-externally-managed install_data
+[8.611s] running egg_info
+[8.617s] writing ../../build/motor_control/motor_control.egg-info/PKG-INFO
+[8.620s] writing dependency_links to ../../build/motor_control/motor_control.egg-info/dependency_links.txt
+[8.622s] writing entry points to ../../build/motor_control/motor_control.egg-info/entry_points.txt
+[8.623s] writing requirements to ../../build/motor_control/motor_control.egg-info/requires.txt
+[8.625s] writing top-level names to ../../build/motor_control/motor_control.egg-info/top_level.txt
+[8.638s] reading manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[8.650s] writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[8.652s] running build
+[8.653s] running build_py
+[8.665s] running install
+[8.668s] running install_lib
+[8.681s] running install_data
+[8.682s] running install_egg_info
+[8.699s] removing '/home/pi/ros2_pi_ws/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info' (and everything under it)
+[8.702s] Copying ../../build/motor_control/motor_control.egg-info to /home/pi/ros2_pi_ws/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info
+[8.712s] running install_scripts
+[8.829s] Installing motor_control_node script to /home/pi/ros2_pi_ws/install/motor_control/lib/motor_control
+[8.833s] writing list of installed files to '/home/pi/ros2_pi_ws/build/motor_control/install.log'
+[9.055s] Invoked command in '/home/pi/ros2_pi_ws/src/motor_control' returned '0': PYTHONPATH=/home/pi/ros2_pi_ws/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_pi_ws/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/pi/ros2_pi_ws/build/motor_control/build install --record /home/pi/ros2_pi_ws/build/motor_control/install.log --single-version-externally-managed install_data
